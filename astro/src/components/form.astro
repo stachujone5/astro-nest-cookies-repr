@@ -1,0 +1,9 @@
+---
+import { actions } from 'astro:actions';
+---
+<form
+  method='POST'
+  action={'/' + actions.getGreeting}
+>
+        <button type="submit">Submit</button>
+ </form>

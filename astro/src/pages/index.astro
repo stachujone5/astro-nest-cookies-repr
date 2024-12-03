@@ -1,7 +1,7 @@
 ---
 import Form from '../components/form.astro'
 
-fetch('http://localhost:3000/', { credentials: 'include' })
+fetch('http://localhost:6500/users/1', { credentials: 'include' }).finally(console.log)
 ---
 
 <html lang="en">
